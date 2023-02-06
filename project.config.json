@@ -1,0 +1,34 @@
+{
+    "miniprogramRoot": "dist/",
+    "projectname": "learn_taro",
+    "description": "学习使用taro",
+    "appid": "wx86020f10ff13eb21",
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "enhance": true,
+        "compileHotReLoad": false,
+        "postcss": true,
+        "minified": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "minifyWXSS": true,
+        "minifyWXML": true
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.30.0",
+    "srcMiniprogramRoot": "dist/",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "condition": {},
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    },
+    "simulatorPluginLibVersion": {}
+}

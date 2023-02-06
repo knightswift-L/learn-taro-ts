@@ -1,0 +1,50 @@
+.bottom-button-view-container {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .bottom-button-view {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    Text {
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 45px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.771765px;
+
+        color: #FFFFFF;
+
+    }
+
+
+
+    .bottom-button-view-left {
+        width: 209px;
+        height: 88px;
+        border: 0.5px solid rgba(26, 39, 52, 0.1);
+        border-radius: 44px;
+
+        Text {
+            color: #1F54E0;
+        }
+    }
+
+    .bottom-button-view-right {
+        width: 424px;
+        height: 88px;
+        background-color: rgba(31, 84, 224, 1);
+        border-radius: 44px;
+    }
+}
